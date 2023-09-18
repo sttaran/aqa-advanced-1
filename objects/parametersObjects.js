@@ -3,7 +3,7 @@
 //     console.log(`Age: ${age}`);
 //     console.log(`Gender: ${gender}`);
 //     console.log(`Occupation: ${occupation}`);
-}
+// }
 //
 // // Використання функції з багатьма параметрами
 // printUserInfo("John", 30, "male", "developer");
