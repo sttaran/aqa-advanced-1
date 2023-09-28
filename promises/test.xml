@@ -1,0 +1,17 @@
+<GetInvoicesRequest>
+    <AuthData> <Pwd>password</Pwd> <Uid>username</Uid> </AuthData>
+    <RunAtSource>false</RunAtSource>
+    <SourceIntId>151</SourceIntId>
+    <PagingOption>
+        <PageNumber>1</PageNumber>
+        <PageSize>20</PageSize>
+    </PagingOption>
+    <Condition>
+        <Column>DocType</Column>
+        <ConditionOperator>Equal</ConditionOperator>
+        <Values>
+            <anyType>1</anyType>
+        </Values>
+        <DataType>Int</DataType>
+    </Condition>
+</GetInvoicesRequest>
